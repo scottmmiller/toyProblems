@@ -13,7 +13,7 @@ var fullName = [];
 
 var combinator = function () {
 	for (var i = 0; i < firstName.length; i++) {
-		for (var j = 0; i < lastName.length; i++) {
+		for (var j = 0; i < lastName.length; i++) {  //No need for 2nd loop as firstName is same length as lastName
 			fullName.push(firstName[i] + ' ' + lastName[i]);
 		};
 	};
